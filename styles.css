@@ -17,6 +17,7 @@
 
 /* Dark theme styles */
 .dark-mode {
+  display: inline-flex;
   --bgOrange: #ff6600; /* Example color for dark theme */
   background-color: #222; /* Example background color for dark theme */
   color: #fff; /* Example text color for dark theme */
@@ -801,9 +802,9 @@ footer {
   .container {
     width: 95%;
   }
-  .navbar {
-    /* background-color: red; */
-  }
+  /* .navbar {
+    background-color: red;
+  } */
   .logo-container {
     margin-left: -1.8rem;
   }
@@ -811,7 +812,9 @@ footer {
     display: none;
   }
   .hamburger {
-    display: inline-flex;
+    display: block; /* Change display property to block to make hamburger icon appear below dark-mode icon */
+    margin-top: 4rem;
+    /* display: inline-flex; */
   }
   .hero-section {
     flex-direction: column;
