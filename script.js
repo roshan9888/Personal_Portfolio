@@ -3,10 +3,7 @@ console.log("portfolio opened");
 const hamburger = document.querySelector(".hamburger");
 const menuSlider = document.querySelector(".menu-slider");
 const overlay = document.querySelector(".overlay");
-<<<<<<< HEAD
-=======
 
->>>>>>> abc662d (contact us from changes)
 let slider = false;
 console.log(slider);
 
@@ -69,11 +66,11 @@ darkModeButton.addEventListener("click", () => {
 });
 
 
-<<<<<<< HEAD
+
 // submit contact form => for future
-=======
+
 // // submit contact form => for future
->>>>>>> abc662d (contact us from changes)
+
 // const form = document.querySelector(".form");
 
 // document.addEventListener("DOMContentLoaded", function () {
@@ -84,7 +81,7 @@ darkModeButton.addEventListener("click", () => {
 //     const formData = new FormData(form);
 
 //     // Convert the FormData object to a plain JavaScript object
-<<<<<<< HEAD
+
 //     const formObject = {};
 //     formData.forEach((value, key) => {
 //       formObject[key] = value;
@@ -93,7 +90,7 @@ darkModeButton.addEventListener("click", () => {
 //     console.log(formObject);
 //   });
 // });
-=======
+
 //     // const formObject = {};
 //     // formData.forEach((value, key) => {
 //     //   formObject[key] = value;
@@ -158,4 +155,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 });
->>>>>>> abc662d (contact us from changes)
